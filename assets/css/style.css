@@ -1,0 +1,18 @@
+/* DEFINICION DE VARIABLES */
+:root {
+    --color-principal: #FFFFFF;
+    --color-secundario: #04B4E0;
+
+    --color-background: #F2F7F9;
+    --color-transparent: transparent;
+
+    --color-icono: #B5B6B7;
+    --color-titles: #222222;
+    --color-subtitle: #888;
+    --color-text: #555;
+
+}
+
+/* ESTILOS GENERALES */
+
+/* ESTRCUTURA PRINCIPAL */
