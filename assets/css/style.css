@@ -39,7 +39,7 @@ h6 {
 
 /* IMAGEN DE FONDO */
 body {
-    background-color: aqua;
+    
     background-image: url("../img/fondo.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ body {
     /* Sombra detras del layout */
     border-radius: 4rem;
     box-shadow: 0 0 100px -5px rgb(0, 0, 0, 0.25);
-    border: 1px solid violet;
+    
 
 }
 
@@ -99,7 +99,7 @@ body {
 
 /* PSEUDO ELEMENTO -PARA PUNTOS GRADIENTES */
 .user-info__container-image::after {
-    content: "hola";
+    content: "";
     position: absolute;
     top: 5%;
     left: 9%;
@@ -118,6 +118,77 @@ body {
     background-color: var(--color-principal);
     border: 3px solid var(--color-principal);
     border-radius: 20rem;
+}
+
+.user-info__name{
+    margin-top: 2.6rem;
+    font-size: 3.2rem;
+    font-weight: bold;
+    color: var(--color-principal);
+}
+
+.user-info__job{
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: var(--color-principal);
+}
+
+.layout__menu {
+    display: none !important;
+}
+
+.user-info__links {
+    margin-bottom: 3.6rem;
+}
+
+.links__social {
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.social__option{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    opacity: 0.9;
+    border-radius: 3rem;
+    transition: all 300ms linear ease-in-out;
+}
+
+.social__option:hover{
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+
+.user-info__buttons{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+.user-info__btn{
+    border: 2px solid var(--color-principal);
+    border-radius: 3.2rem;
+    color: var(--color-principal);
+    padding: 3rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.22);
+    transition: all  300ms ease-in-out;
+}
+
+.user-info__btn:hover{
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+.user-info__footer{
+    position: absolute;
+    bottom: 2rem;
+    font-size: 1.2rem ;
 }
 
 /* CONTENEDOR PRINCIPAL */
