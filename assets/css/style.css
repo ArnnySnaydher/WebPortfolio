@@ -319,3 +319,35 @@ body {
 .title__color{
     color: var(--color-secundario);
 }
+
+/* INFORMACION PERSONAL */
+.about__personal-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5rem;
+
+}
+
+.personal-info__bio{
+    flex-basis: 55%;
+}
+
+.personal-info__description{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.personal-info__data{
+    flex-basis:45%;
+    padding: 0 1.5rem;
+}
+.personal-info__option{
+    margin-bottom:1rem;
+}
+
+.personal-info__title{
+    margin-right: 0.5rem;
+    color: var(--color-secundario);
+    font-weight: 600;
+}
