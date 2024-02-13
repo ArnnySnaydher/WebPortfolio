@@ -293,6 +293,29 @@ body {
     padding-right: 3rem;
     overflow: auto;
     
-    
-    
+}
+
+.about__header{
+    display: inline-block;
+    margin-bottom: 4.5rem;
+
+}
+
+.about__title{
+    font-size: 3.2rem;
+    position: relative;
+}
+.about__title::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -25px;
+    width: 50px;
+    height: 30px;
+    background-image: -webkit-repeating-radial-gradient(center center ,var(--color-secundario),var(--color-secundario) 1px,transparent 0px ,transparent 100%);
+    background-size: 6px 6px;
+}
+
+.title__color{
+    color: var(--color-secundario);
 }
