@@ -201,7 +201,7 @@ body {
 }
 
 .content__page {
-   
+
     background-color: var(--color-principal);
     min-height: 100%;
     border-radius: 3rem;
@@ -285,43 +285,44 @@ body {
 }
 
 /* SOBRE MI */
-.content__about{
+.content__about {
     display: block;
     height: 100%;
     min-height: 100%;
     padding: 6rem;
     padding-right: 3rem;
     overflow: auto;
-    
+
 }
 
-.about__header{
+.about__header {
     display: inline-block;
     margin-bottom: 4.5rem;
 
 }
 
-.about__title{
+.about__title {
     font-size: 3.2rem;
     position: relative;
 }
-.about__title::after{
+
+.about__title::after {
     content: "";
     position: absolute;
     top: 20px;
     right: -25px;
     width: 50px;
     height: 30px;
-    background-image: -webkit-repeating-radial-gradient(center center ,var(--color-secundario),var(--color-secundario) 1px,transparent 0px ,transparent 100%);
+    background-image: -webkit-repeating-radial-gradient(center center, var(--color-secundario), var(--color-secundario) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
 }
 
-.title__color{
+.title__color {
     color: var(--color-secundario);
 }
 
 /* INFORMACION PERSONAL */
-.about__personal-info{
+.about__personal-info {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -329,25 +330,58 @@ body {
 
 }
 
-.personal-info__bio{
+.personal-info__bio {
     flex-basis: 55%;
 }
 
-.personal-info__description{
+.personal-info__description {
     font-size: 1.5rem;
     line-height: 2.4rem;
 }
 
-.personal-info__data{
-    flex-basis:45%;
+.personal-info__data {
+    flex-basis: 45%;
     padding: 0 1.5rem;
 }
-.personal-info__option{
-    margin-bottom:1rem;
+
+.personal-info__option {
+    margin-bottom: 1rem;
 }
 
-.personal-info__title{
+.personal-info__title {
     margin-right: 0.5rem;
     color: var(--color-secundario);
     font-weight: 600;
+}
+
+/* SERVICIOS */
+.about__services{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.services__header{
+    display: inline-block;
+    padding-right: 1.2rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.services__title{
+    font-size: 2.1rem;
+}
+
+.services__title::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    width: 30px;
+    height: 20px;
+    background-image: -webkit-repeating-radial-gradient(center center, var(--color-secundario), var(--color-secundario) 1px, transparent 0px, transparent 100%);
+    background-size: 6px 6px;
+}
+
+.service__real-icon{
+    color: var(--color-secundario);
+    font-size: 3.8rem;
 }
