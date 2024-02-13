@@ -380,8 +380,30 @@ body {
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secundario), var(--color-secundario) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
 }
+.services__container{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.services__service{
+    flex-basis: calc(50% - 3rem);
+    margin-right: 3rem;
+    margin-bottom: 2.5rem;
+}
 
 .service__real-icon{
     color: var(--color-secundario);
     font-size: 3.8rem;
+}
+
+.service__title{
+    font-size:1.8rem;
+    margin: 0.5rem 0;
+}
+
+.service__description{
+    font-size: 1.5rem;
+    text-align: justify;
 }
