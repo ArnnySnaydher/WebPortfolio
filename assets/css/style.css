@@ -11,6 +11,9 @@
     --color-subtitle: #888;
     --color-text: #555;
 
+    --color-border-reviews:#E5E6E7;
+    --color-company:#A5A6A7;
+
 }
 
 /* ESTILOS GENERALES */
@@ -354,23 +357,28 @@ body {
     font-weight: 600;
 }
 
-/* SERVICIOS */
-.about__services{
+
+/* ESTILOS COMPARTIDOS ABOUT*/
+.about__services,
+.about__reviews{
     width: 100%;
     margin-bottom: 3rem;
 }
 
-.services__header{
+.services__header,
+.reviews__header{
     display: inline-block;
     padding-right: 1.2rem;
     position: relative;
     margin-bottom: 2.5rem;
 }
-.services__title{
+.services__title,
+.reviews__title{
     font-size: 2.1rem;
 }
 
-.services__title::after {
+.services__title::after,
+.reviews__title::after {
     content: "";
     position: absolute;
     top: 15px;
@@ -379,7 +387,10 @@ body {
     height: 20px;
     background-image: -webkit-repeating-radial-gradient(center center, var(--color-secundario), var(--color-secundario) 1px, transparent 0px, transparent 100%);
     background-size: 6px 6px;
+    opacity: 0.5;
 }
+
+/* SERVICIOS */
 .services__container{
     display: flex;
     width: 100%;
@@ -406,4 +417,36 @@ body {
 .service__description{
     font-size: 1.5rem;
     text-align: justify;
+}
+
+/* REVIEWS */
+
+.reviews__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reviews__review{
+    flex-basis: calc(50% - 2.5rem);
+    border: 2px solid var(--color-border-reviews);
+    border-radius: 2rem;
+    padding-top: 0;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin-right: 2.5rem;
+}
+
+.review_image-container{
+    width: 100%;
+}
+
+.review__image{
+    max-width: 9rem;
+    max-height: 9rem;
+    border-radius: 9rem;
+    margin: 0 auto;
+    margin-top: -4.5rem;
 }
