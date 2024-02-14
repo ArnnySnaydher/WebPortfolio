@@ -360,13 +360,15 @@ body {
 
 /* ESTILOS COMPARTIDOS ABOUT*/
 .about__services,
-.about__reviews{
+.about__reviews,
+.about__clients{
     width: 100%;
     margin-bottom: 3rem;
 }
 
 .services__header,
-.reviews__header{
+.reviews__header,
+.clients__header{
     display: inline-block;
     padding-right: 1.2rem;
     position: relative;
@@ -378,7 +380,8 @@ body {
 }
 
 .services__title::after,
-.reviews__title::after {
+.reviews__title::after,
+.clients__title::after{
     content: "";
     position: absolute;
     top: 15px;
@@ -484,4 +487,35 @@ body {
     font-size: 4rem;
     opacity: 0.5;
     color: var(--color-secundario);
+}
+
+/* CLIENTES */
+.about__clients{
+    width: 100%;
+    margin-bottom:5rem;
+}
+
+.clients__header{
+    margin-bottom: 3rem;
+}
+
+.clients__container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clients__link{
+    display:block;
+    width: 100%;
+    opacity: 0.7;
+    transition: all  300ms linear;
+}
+
+.clients__link:hover{
+    opacity: 1;
+}
+.clients__image{
+    width: 145px ;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
 }
