@@ -361,27 +361,32 @@ body {
 /* ESTILOS COMPARTIDOS ABOUT*/
 .about__services,
 .about__reviews,
-.about__clients{
+.about__clients,
+.about__prices{
     width: 100%;
     margin-bottom: 3rem;
 }
 
 .services__header,
 .reviews__header,
-.clients__header{
+.clients__header,
+.prices__header{
     display: inline-block;
     padding-right: 1.2rem;
     position: relative;
     margin-bottom: 2.5rem;
 }
 .services__title,
-.reviews__title{
+.reviews__title,
+.clients__title,
+.prices__title{
     font-size: 2.1rem;
 }
 
 .services__title::after,
 .reviews__title::after,
-.clients__title::after{
+.clients__title::after,
+.prices__title::after{
     content: "";
     position: absolute;
     top: 15px;
@@ -492,7 +497,7 @@ body {
 /* CLIENTES */
 .about__clients{
     width: 100%;
-    margin-bottom:5rem;
+    margin-bottom:2rem;
 }
 
 .clients__header{
@@ -518,4 +523,26 @@ body {
     width: 145px ;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+/* PRECIOS */
+
+.prices__container{
+    width: 100%;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.prices__box{
+    flex-basis: 50%;
+    margin-right: 3rem;
+    padding: 3rem;
+    border: 2px solid var(--color-border-reviews);
+}
+
+.prices__box:last-of-type{
+    margin-right: 0rem;
 }
