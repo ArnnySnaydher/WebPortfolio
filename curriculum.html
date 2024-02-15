@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Portafolio - Arnny Quispe</title>
   </head>
@@ -39,19 +40,19 @@
           <nav class="layout__menu">
             <ul class="menu__list">
               <li class="menu__option">
-                <a href="index.html" class="menu__link  menu__link--active">
+                <a href="index.html" class="menu__link">
                   <i class="menu__icon fa fa-home"></i>
                   <span class="menu__overlay">Home</span>
                 </a>
               </li>
               <li class="menu__option">
-                <a href="sobre-mi.html" class="menu__link">
+                <a href="sobre-mi.html" class="menu__link ">
                   <i class="menu__icon fa fa-user"></i>
                   <span class="menu__overlay">Sobre mi</span>
                 </a>
               </li>
               <li class="menu__option">
-                <a href="curriculum.html" class="menu__link">
+                <a href="curriculum.html" class="menu__link menu__link--active">
                   <i class="menu__icon fa fa-graduation-cap"></i>
                   <span class="menu__overlay">Curriculum</span>
                 </a>
@@ -122,9 +123,15 @@
       </aside>
       <!-- Contenido principal -->
       <main class="layout__content">
-        <section class="content__page">
-          <h1 class="page__name">Arnny Quispe</h1>
-          <h2 class="page__job">Desarrollador Web</h2>
+        <section class="content__page content__resume">
+          <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SITIO WEB -->
+
+          <header class="resume__header">
+            <h1 class="resume__title">
+             Curriculum
+            </h1>
+          </header>
+
         </section>
       </main>
     </div>
