@@ -325,7 +325,8 @@ body {
     background-size: 6px 6px;
 }
 
-.title__color {
+.title__color,
+.subtitle__color {
     color: var(--color-secundario);
 }
 
@@ -363,7 +364,7 @@ body {
 }
 
 
-/* ESTILOS COMPARTIDOS ABOUT*/
+/* ESTILOS GENERALES COMPARTIDOS ABOUT Y OTRAS SECCIOBES*/
 .about__services,
 .about__reviews,
 .about__clients,
@@ -377,7 +378,8 @@ body {
 .reviews__header,
 .clients__header,
 .prices__header,
-.extra__header {
+.extra__header,
+.resume__subheader {
     display: inline-block;
     padding-right: 1.2rem;
     position: relative;
@@ -388,7 +390,8 @@ body {
 .reviews__title,
 .clients__title,
 .prices__title,
-.extra__title {
+.extra__title,
+.resume__subtitle{
     font-size: 2.1rem;
 }
 
@@ -396,7 +399,8 @@ body {
 .reviews__title::after,
 .clients__title::after,
 .prices__title::after,
-.extra__title::after {
+.extra__title::after,
+.resume__subtitle::after {
     content: "";
     position: absolute;
     top: 15px;
