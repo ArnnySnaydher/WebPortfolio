@@ -735,6 +735,38 @@ body {
     margin-bottom: 1rem;
 }
 
+.timeline__divider{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: -18px;
+    width: 1px;
+    background-color: var(--color-background--scrollbar);
+}
+
+.timeline__divider::before{
+    content: "";
+    position: absolute;
+    margin-top: 0.4rem;
+    margin-left: -0.8rem;
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: var(--color-secundario);
+    border-radius: 10rem;
+    opacity: 0.25;
+}
+.timeline__divider::after{
+    content: "";
+    position: absolute;
+    margin-top: 0.8rem;
+    margin-left: -0.4rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: var(--color-principal);
+    border-radius: 10rem;
+    border: 2px solid var(--color-secundario);
+    opacity: 1;
+}
 
 /* CURRICULUM DERECHA */
 .resume__right{
