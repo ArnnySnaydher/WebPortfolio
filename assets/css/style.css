@@ -923,3 +923,31 @@ body {
     color: var(--color-secundario);
     text-shadow: 0 0 1px rgb(0, 0, 0, 0.25);
 }
+
+.portfolio__gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery__item{
+    flex-basis: 33%;
+    padding: 0.7rem;
+}
+
+.gallery__container-image{
+    overflow: hidden;
+}
+.gallery__image{
+    transition: all 300ms ease-in-out;
+}
+
+.gallery__item:hover .gallery__image{
+    transform: scale(1.1);
+}
+
+.gallery__title{
+    font-size: 1.6rem;
+    padding: 1.5rem 0;
+    font-weight: bold;
+}
