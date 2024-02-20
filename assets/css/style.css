@@ -892,3 +892,34 @@ body {
     color: var(--color-subtitle);
     opacity: 0.9;
 }
+
+/* PORTFOLIO */
+
+.portfolio__navbar{
+    margin-bottom: 3rem;
+}
+
+.portfolio__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.portfolio__option{
+    font-size: 1.3rem;
+    opacity: 0.7;
+}
+
+.portfolio__option--active{
+    opacity: 1;
+}
+
+.portfolio__link{
+    cursor: pointer;
+}
+
+.portfolio__link:hover{
+    color: var(--color-secundario);
+    text-shadow: 0 0 1px rgb(0, 0, 0, 0.25);
+}
