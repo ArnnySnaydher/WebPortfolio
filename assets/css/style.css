@@ -1037,3 +1037,20 @@ body {
 .article__top:hover .article__image{
     transform: scale(1.1);
 }
+.article__logo{
+    transition: all 200ms  ease-in-out;
+    opacity: 0;
+}
+
+.article__icon{
+    position: absolute;
+    top: calc(50% - 2.2rem);
+    left: calc(50% - 2.2rem);
+    width: 4.4rem;
+    text-align: center;
+    font-size: 4.4rem;
+    color: var(--color-principal);
+}
+.article__top:hover .article__logo{
+    opacity: 1;
+}
