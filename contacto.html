@@ -154,11 +154,41 @@
                 <h2 class="contact subtitle">Lima</h2>
               </div>
             </section>
-            <section class="contact__form">
+            <section class="contact__form-box">
               <div class="contact__map"></div>
               <header class="contact__form-header">
                 <h3 class="contatc__subtitle">¿Como puedo <span class="subtitle__color">Ayudarte?</span></h3>
               </header>
+
+              <form action="" class="contact__form">
+                <div class="form__container">
+                  <section class="form__left">
+                    <div class="form__group">
+                      <input type="text" name="name" id="" class="form__input" required placeholder="Nombre">
+                      <label for="name" class="form__label">Nombre</label>
+                    </div>
+
+                    <div class="form__group">
+                      <input type="email" name="email" id="" class="form__input" required placeholder="Email">
+                      <label for="email" class="form__label">Email</label>
+                    </div>
+
+                    <div class="form__group">
+                      <input type="text" name="subject" id="" class="form__input" required placeholder="Subject">
+                      <label for="subject" class="form__label">Asunto</label>
+                    </div>
+                  </section>
+                  <section class="form__right">
+                    <div class="form__group">
+                      <textarea name="message" id="" class="form__input form__input--textarea" required placeholder="Mensaje"></textarea>                      
+                      <label for="message" class="form__label">Asunto</label>
+                    </div>
+                  </section>
+
+                  <input type="submit" class="form__button" value="Enviar mensaje">
+
+                </div>
+              </form>
             </section>
           </div>
 
