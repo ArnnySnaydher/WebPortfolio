@@ -293,7 +293,8 @@ body {
 /* ESTILOS GENERALES (SOBRE MI Y OTRAS PAGINAS) */
 .content__about ,
 .content__resume,
-.content__portfolio{
+.content__portfolio,
+.content__page{
     display: block;
     height: 100%;
     min-height: 100%;
@@ -305,7 +306,8 @@ body {
 
 .about__header,
 .resume__header,
-.portfolio__header{
+.portfolio__header,
+.blog__header{
     display: inline-block;
     margin-bottom: 4.5rem;
 
@@ -313,14 +315,16 @@ body {
 
 .about__title,
 .resume__title,
-.portfolio__title {
+.portfolio__title,
+.blog__title {
     font-size: 3.2rem;
     position: relative;
 }
 
 .about__title::after,
 .resume__title::after,
-.portfolio__title::after {
+.portfolio__title::after,
+.blog__title::after {
     content: "";
     position: absolute;
     top: 20px;
