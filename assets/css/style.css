@@ -1054,3 +1054,22 @@ body {
 .article__top:hover .article__logo{
     opacity: 1;
 }
+
+.article__bottom{
+    margin: 0;
+    padding: 2.1rem;
+    padding-top: 1.5rem;
+    border: 0.1rem solid var(--color-border-reviews);
+    border-top: 0;
+}
+
+.article__date{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--color-subtitle);
+}
+
+.article__title{
+    font-size: 1.8rem;
+}
