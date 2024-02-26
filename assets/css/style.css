@@ -294,7 +294,8 @@ body {
 .content__about ,
 .content__resume,
 .content__portfolio,
-.content__blog{
+.content__blog,
+.content__contact{
     display: block;
     height: 100%;
     min-height: 100%;
@@ -307,7 +308,8 @@ body {
 .about__header,
 .resume__header,
 .portfolio__header,
-.blog__header{
+.blog__header,
+.contact__header{
     display: inline-block;
     margin-bottom: 4.5rem;
 
@@ -316,7 +318,8 @@ body {
 .about__title,
 .resume__title,
 .portfolio__title,
-.blog__title {
+.blog__title,
+.contact__title {
     font-size: 3.2rem;
     position: relative;
 }
@@ -324,7 +327,8 @@ body {
 .about__title::after,
 .resume__title::after,
 .portfolio__title::after,
-.blog__title::after {
+.blog__title::after,
+.contact__title::after {
     content: "";
     position: absolute;
     top: 20px;
