@@ -1191,21 +1191,30 @@ body {
     position: absolute;
     top:1rem;
     left: 1.5rem;
-    z-index: -1;
+    z-index: 1;
     color: var(--color-company);
     transition: all 300ms  ease-in-out;
-
-
+    pointer-events: none;
 
 }
 
-.form__input:focus~label{
+.form__input:focus~label,
+.form__input:not(:placeholder-shown)~label{
     top: -2rem;
     left: 0;
     z-index: 1;
     font-size: 1.3rem;
     color: var(--color-secundario);
 }
+
+.form__input::-webkit-input-placeholder{
+color: transparent;
+}
+
+.form__input::-moz-placeholder{
+    color: transparent;
+}
+
 .form__right{
     flex-basis: 50%;
     max-width: 50%;
