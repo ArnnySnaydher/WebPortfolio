@@ -90,8 +90,42 @@
 }
 
 @media (max-width:670px) {
+    .about__personal-info{
+        flex-direction: column;
+    }
+    .personal-info__data{
+        flex-basis: 100%;
+        padding: 0;
+        margin-top: 2rem;
+    }
+   
+
+    .services__container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .services__service{
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
     .extra__container{
         flex-direction: column;
         gap: 2rem;
     }
+
+    .resume__container{
+        flex-direction: column;
+    }
+    .resume__right{
+        flex-basis: 100%;
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    .contact__container{
+        flex-direction: column;
+    }
+
 }
