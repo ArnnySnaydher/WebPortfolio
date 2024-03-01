@@ -40,10 +40,14 @@
         grid-template-areas: 'content';
         grid-template-columns: 100%;
     }
+    .layout__aside{
+        display: none;
+    }
     .layout__content{
         border-radius: 0;
         background-color: transparent;
         height: 100%;
+        width: 100%;
 
     }
 
@@ -128,4 +132,36 @@
         flex-direction: column;
     }
 
+}
+
+@media (max-width: 480px) {
+    .page__name{
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+        text-align: center;
+    }
+
+    .certificate__logo{
+        width: 100%;
+    }
+
+    .gallery__item{
+        flex-basis: 100%;
+    }
+
+    .form__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__left{
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    .form__right{
+        flex-basis: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
