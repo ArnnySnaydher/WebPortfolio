@@ -56,3 +56,35 @@
         position: static;
     }
 }
+
+@media (max-width:800px) {
+    .reviews__container{
+        flex-direction: column;
+    }
+    .reviews__review{
+        margin-top: 6rem;
+        flex-basis: 100%;
+    }
+    .clients__container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .prices__container{
+        flex-direction: column;
+    }
+    .prices__box{
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+    .prices__box:last-child{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width:670px) {
+    .extra__container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
