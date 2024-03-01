@@ -246,13 +246,13 @@ body {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    width: 60%;
+    width: 45%;
     min-height: 32rem;
     background-color: var(--color-principal);
     box-shadow: 0 0 3rem -0.5 rgba(0, 0, 0, 0.15);
     border-radius: 6rem;
     padding: 2rem 0;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
 }
 
 
@@ -1119,13 +1119,13 @@ body {
 .contact__container {
     display: flex;
     flex-direction: row;
-    border: 2px solid;
+   
 }
 
 .contact__info {
     flex-basis: 33%;
     padding: 0 1.5rem;
-    border: 2px solid;
+   
 }
 
 .contact__data {
@@ -1150,13 +1150,13 @@ body {
 .contact__form-box {
     flex-basis: 66%;
     padding: 0 1.5rem;
-    border: 2px solid;
+    
 }
 
 .form__container {
     display: flex;
     flex-direction: row;
-    border: 2px solid;
+   
 
 }
 
