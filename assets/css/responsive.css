@@ -80,6 +80,13 @@
     .prices__box:last-child{
         margin-top: 2rem;
     }
+
+    .gallery__item{
+        flex-basis: 50%;
+    }
+    .articles__article{
+        flex-basis: 100%;
+    }
 }
 
 @media (max-width:670px) {
